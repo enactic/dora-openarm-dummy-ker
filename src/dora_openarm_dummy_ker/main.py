@@ -67,7 +67,9 @@ def main():
 
         node.send_output("joystick_x", pa.array([joystick_x], type=pa.float32()))
         node.send_output("joystick_y", pa.array([joystick_y], type=pa.float32()))
-        node.send_output("joystick_button", pa.array([joystick_button], type=pa.int32()))
+        node.send_output(
+            "joystick_button", pa.array([joystick_button], type=pa.int32())
+        )
 
 
 if __name__ == "__main__":
