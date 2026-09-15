@@ -22,7 +22,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 
 dependencies = [
-  "dora-rs >= 0.5.0, <= 1.0.1",
+  "dora-rs >= 0.5.0",
 ]
 
 [project.urls]
@@ -32,7 +32,7 @@ Repository = "https://github.com/enactic/dora-openarm-dummy-ker.git"
 
 [dependency-groups]
 dev = [
-  "dora-rs-cli>=0.5.0, <= 1.0.1",
+  "dora-rs-cli >= 0.5.0",
   "pytest >= 8.1.1",
   "ruff == 0.14.11", # sync with .pre-commit-config.yaml
 ]
